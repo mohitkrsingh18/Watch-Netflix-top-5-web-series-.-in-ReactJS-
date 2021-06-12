@@ -1,0 +1,93 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  background-color: rgb(8, 8, 8);
+}
+.heading{
+  padding: 10px;
+  text-align: center;
+  font-family: "Raleway",sans-serif;
+
+  text-transform: uppercase;
+  font-size: 25px;
+  letter-spacing: 2px;
+  font-weight: 500;
+  color: rgb(245, 85, 11);
+  background-color: rgb(66, 63, 63);
+  margin-bottom: 50px;
+  
+}
+.cards{
+  width: 100%;
+  height: auto;
+  
+}
+.card{
+  margin: 6%;
+  transition: all 0.4s cubic-bezier(0.175, 0.885, 0, 1);
+  background-color: white;
+  width: 21.25%;
+  border-radius: 12px;
+  box-shadow: 0px 13px 10px -7px rgba(248, 246, 246, 0.884);
+  float:left;
+}
+.card:hover{
+  box-shadow:0px 30px 18px -8px black;
+  transform: scale(1.05, 1.05);
+}
+
+.cardimg{
+  width: 100%;
+  height: 235px;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+.cardinfo{
+  background-color:white;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+  padding:10px;
+}
+.cardcat{
+  font-family: "Raleway",sans-serif;
+  text-transform: uppercase;
+  font-size: 13px;
+  letter-spacing: 2px;
+  font-weight: 500;
+  color: rgb(141, 134, 124);
+  background-color: #fff;
+}
+.cardtitle{
+  background-color:#fff;
+  font-family: "Raleway",sans-serif;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  text-transform: capitalize;
+}
+button{
+  padding: 5px 8px;
+  text-transform: uppercase;
+  font-size: 13px;
+  letter-spacing: 2px;
+  font-weight: 500;
+  color: rgb(58, 33, 3);
+  background-color: white;
+  outline: none;
+  border:1px solid black;
+  border-radius: 5px;
+  font-family: "Raleway",sans-serif;
+  cursor: pointer;
+  
+}
+button:hover{
+color:white;
+background-color:black;
+}
+
+@media(max-width:514){
+  .cardinfo{
+    font-size: 10px;
+
+  }
+}
